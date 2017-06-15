@@ -1,0 +1,130 @@
+/*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+
+
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
+
+body {
+	/*width: 960px;
+*/	margin: auto;
+}
+
+#name {
+	background-color: #4aaaa5;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	position: relative;
+	left: 100px;
+}
+
+#nameLink {
+	color: white;
+	text-decoration: none;
+}
+
+.navButtons {
+	text-decoration: none;
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	bottom: -22px;
+	right: 50px;
+}
+
+.borderRight {
+	border-right: solid 1px black;
+}
+
+#profilePhoto {
+	height: 200px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.centered {
+	width: 960px;
+	margin: auto;
+}
+
+#left {
+	border: 2px solid #000;
+	width: 50%;
+	float: left;
+	position: relative;
+	left: 100px;
+	padding: 10px;
+}
+
+#right {
+	border: 2px solid #000;
+	float: left;
+	width: 20%;
+	position: absolute;
+	right: 130px;
+	padding: 10px;
+
+
+}
+
+.icons {
+	height: 40px;
+	width: 40px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+header {
+	border-bottom: 2px black solid;
+	overflow: auto;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	background-color: #666666;
+}
+
+p {
+	float: left;
+}
+
+.main {
+	border: 2px red solid;
+	height: 400px;
+	padding-top: 20px;
+	background-image: url("assets/images/wild_flowers.png");
+	/*background-repeat: no repeat;*/
+	background-attachment: fixed;
+}
+
